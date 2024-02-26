@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    width: 1440px;
+    height: 700px;
+    background-image: url(../img/página\ Dados\ Bancários\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -12rem;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login {
+    background-size: 100%;
+    border-radius: 20px 25px 86px 20px;
+    width: 909px;
+    height: 544px;
+    background-image: url("../img/Rectangle\ 379.png");
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+#login {
+    display: flex;
+    margin: 10rem 30rem;
+}
+
+.login__img__um {
+    display: block;
+    text-align: center;
+    padding: 90px 110px;
+    color: white;
+}
+
+#email__senha {
+    width: 350px;
+    height: 544px;
+    background-color: white;
+    border-radius: 84px 20px 84px 0;
+}
+
+.email__senha {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.1rem;
+}
+
+.logo__mova {
+    margin-bottom: 1.5rem;
+}
+
+.conteiner{
+    font-size: 28.8px;
+    color: #1379A5; 
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin-bottom: 0.8rem;
+}
+
+input{
+    padding: 0.8rem 0.8rem 0.2rem 0.8rem;
+    outline: none;
+    border: 1px solid #6E6E64;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0.8rem;
+}
+
+.link {
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+button {
+    background-color: #2196F3;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 0.8rem;
+    box-shadow: 1px 3px rgb(177, 175, 175);
+}
+
+.redes {
+    color: #6E6E64;
+    margin-bottom: 0.8rem;
+}
+
+.lista__icons {
+    display: flex;
+}
+
+.lista__links {
+    list-style-type: none;
+    padding: 0 1.5rem;
+}

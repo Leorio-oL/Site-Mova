@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 700px;
+    background-image: url(../img/página\ Dados\ Bancários\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -12rem;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#senha{    
+    width: 640px;
+    height: 640px;
+    background-color: white;
+    border-radius: 84px;
+    margin: 8rem 40rem;
+}
+
+.sua__senha {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+    padding-top: 4.5rem;
+    text-align: center;
+    font-family: "montserrat";
+}
+
+.logo {
+    margin-bottom: 3rem;
+    width: 298px;
+    height: 139px;
+    padding-left: 5.8rem;
+}
+
+.titulo {
+    color: #1379A5;
+    font-size: 28.8px;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.texto {
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+input {
+    font-family: "montserrat";
+    padding: 0.8rem 0.8rem 0.8rem 3rem;
+    font-size: 18px;
+    background: url("../img/envelope.png");
+    background-repeat: no-repeat;
+    background-position: 1.1rem 0.9rem;
+    outline: none;
+    border-radius: 84px;
+    margin-bottom: 1rem;
+    border: 1px solid #6E6E64;
+}
+
+
+button {
+    font-family: "montserrat";
+    font-size: 17px;
+    background-color: #2196F3;
+    border: #2196F3;
+    padding: 1rem 2rem;
+    border-radius: 84px;
+    font-size: 17px;
+    color: white;
+    box-shadow: 1px 3px rgb(177, 175, 175);
+}
