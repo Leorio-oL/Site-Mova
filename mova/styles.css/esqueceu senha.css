@@ -4,9 +4,9 @@
 }
 
 body {
-    width: 1440px;
-    height: 700px;
-    background-image: url(../img/página\ Dados\ Bancários\ \(1\).png);
+    width: 100vw;
+    height: 50vh;
+    background: hsla(216, 67%, 57%, 0.685);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -12rem;

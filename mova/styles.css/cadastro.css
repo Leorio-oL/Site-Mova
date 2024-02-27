@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 50vh;
+    background: hsla(216, 67%, 57%, 0.685);
+    background-size: cover;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cadastro {
+    background-size: 100%;
+    border-radius: 20px 25px 86px 20px;
+    width: 100;
+    height: 90vh;
+    background-image: url("../img/Rectangle\ 379.png");
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    
+}
+
+#cadastro {
+    display: flex;
+    margin: auto;
+    margin: 2.7% 20%;
+}
+
+.login__img__um {
+    display: block;
+    text-align: center;
+    padding: 18% 10%;
+    color: white;
+}
+
+.img-1 {
+    width: 326px;
+    height: 333px;
+    margin-bottom: 1rem;
+}
+
+#cadastro__id {
+    width: 578px;
+    height: 850px;
+    background-color: white;
+    border-radius: 84px 20px 84px 0;
+    
+}
+
+.seu__cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -1rem 2rem;
+    
+}
+
+.logo {
+    width: 314px;
+    height: 139px;
+    padding: 2rem 10.5rem 1rem 10.5rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    font-size: 24.5px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "montserrat";
+    margin-bottom: 1rem;
+}
+
+.texto {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "montserrat";
+    margin-bottom: 1.9rem;
+    color: #1379A5;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    padding-left: 1rem;
+}
+
+.titulo__form {
+    margin-bottom: 0.2rem;
+}
+
+.cadastro__id {
+    font-family: "montserrat";
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    outline: none;
+    border: 1px solid #6E6E64;
+    border-radius: 84px;
+    margin-bottom: 0.5rem;
+    width: 20rem;
+}
+
+#tipoChave {
+    font-family: "montserrat";
+    width: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 84px;
+    border: 1px solid #6E6E64;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    outline: none;
+}
+    
+.termos {
+    font-family: "montserrat";
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #2196F3;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 0.8rem;
+    box-shadow: 1px 3px rgb(177, 175, 175);
+}

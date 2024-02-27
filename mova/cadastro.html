@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css/cadastro.css">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <section >
+            <div class="cadastro" id="cadastro">
+                <div class="login__img__um">
+                    <img src="img/grammar correction-rafiki (1).svg" alt="Pessoas preenchendo formulário" class="img-1">
+                    <h2 class="titulo">Cadastre-se</h2>
+                </div>
+                <div id="cadastro__id">
+                    <div class="seu__cadastro">
+                        <img src="img/LOGO - MOVA-02 (1) 1.svg" alt="Logo da Mova" class="logo">                        
+                        <p class="texto">Para fazer o cadastro, preencha seus dados corretamente.</p>
+                        <div class="form">                            
+                            <label for="form-label" class="titulo__form">Nome</label>
+                            <input type="text" placeholder="Seu nome" class="cadastro__id">
+                            <label for="form-label" class="titulo__form">Senha</label>
+                            <input type="password" placeholder="Sua senha" class="cadastro__id">
+                            <label for="form-label" class="titulo__form">Confirme a senha</label>
+                            <input type="password" placeholder="Confirme sua senha" class="cadastro__id">
+                            <label for="form-label" class="titulo__form">Número</label>
+                            <input type="tel" placeholder="Seu número" id="tel" class="cadastro__id">
+                            <label for="form-label" class="titulo__form">CPF</label>
+                            <input type="text" placeholder="CPF" id="cpf" class="cadastro__id" autocomplete="off" maxlength="14">
+                            <label for="form-label" class="titulo__form">Email</label>
+                            <input type="email" placeholder="Email" class="cadastro__id">
+                            <label for="form-label" class="titulo__form">Chave PIX</label>
+                            <input type="text" placeholder="PIX" class="cadastro__id" >
+                            <label for="tipoChave" class="titulo__form">Tipo de Chave PIX:</label>
+                            <select id="tipoChave" name="tipoChave" required>
+                                <option value="cpf/cnpj">CPF/CNPJ</option>
+                                <option value="email">Email</option>
+                                <option value="telefone">Número de Telefone</option>
+                                <option value="chave_aleatoria">Chave Aleatória</option>
+                            </select> 
+                        </div>                                                  
+                        <div>
+                            <input type="checkbox" id="checkbox-1">
+                            <label for="checkbox-1" class="termos">Ao se cadastrar você concorda com nossos <a href="" class="link">termos de uso.</a></label>
+                        </div>
+                        <br>
+                        <button>Finalizar cadastro</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('#cpf').mask('000.000.000-00', {reverse: true});
+        $('#tel').mask('+55(00) 00000-0000');
+    </script>
+</body>
+</html>

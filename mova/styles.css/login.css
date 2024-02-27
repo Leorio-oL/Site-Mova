@@ -6,12 +6,10 @@
 
 
 body {
-    width: 1440px;
-    height: 700px;
-    background-image: url(../img/página\ Dados\ Bancários\ \(1\).png);
-    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vh;
+    background: hsla(216, 67%, 57%, 0.685);
     background-size: cover;
-    background-position: 0 -12rem;
     font-family: "montserrat";
     font-size: 15px;
     font-weight: 400;
@@ -20,8 +18,8 @@ body {
 .login {
     background-size: 100%;
     border-radius: 20px 25px 86px 20px;
-    width: 909px;
-    height: 544px;
+    width: 100;
+    height: 65vh;
     background-image: url("../img/Rectangle\ 379.png");
     justify-content: space-between;
     background-repeat: no-repeat;
@@ -29,46 +27,48 @@ body {
 
 #login {
     display: flex;
-    margin: 10rem 30rem;
+    margin: auto;
+    margin: 10% 20%;
 }
 
 .login__img__um {
     display: block;
     text-align: center;
-    padding: 90px 110px;
+    padding: 10% 17%;
     color: white;
 }
 
 #email__senha {
-    width: 350px;
-    height: 544px;
+    width: 45%;
+    height: 100;
     background-color: white;
     border-radius: 84px 20px 84px 0;
+    margin: 0;
 }
 
 .email__senha {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 17%;
+    width: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2.1rem;
+    padding-top: 3.5rem;
 }
 
 .logo__mova {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
 }
 
-.conteiner{
-    font-size: 28.8px;
+.titulo{
+    font-size: 24.5px;
     color: #1379A5; 
     font-weight: 400;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.3rem;
 }
 
 .subtitulo {
     font-size: 20px;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 
 input{
@@ -78,7 +78,7 @@ input{
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .link {
@@ -96,11 +96,6 @@ button {
     color: white;
     margin-bottom: 0.8rem;
     box-shadow: 1px 3px rgb(177, 175, 175);
-}
-
-.redes {
-    color: #6E6E64;
-    margin-bottom: 0.8rem;
 }
 
 .lista__icons {
